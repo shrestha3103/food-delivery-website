@@ -1,0 +1,80 @@
+/* Navigation */
+#navbar
+{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#navbar::before
+{
+    height: 128%;
+}
+
+/* Home */
+.container
+{
+    padding: 3px 20px;
+    height: 757px;
+}
+
+.brand
+{
+    left: 10px;
+    top: 70px;
+}
+
+.hh
+{
+    font-size: 30px;
+}
+
+.container p
+{
+    color: yellow;
+    font-size: 20px;
+    text-shadow: none;
+    /* font-weight: bold; */
+}
+
+/* Services */
+
+#services
+{
+    flex-direction: column;
+}
+
+#services .box
+{
+    flex-wrap: wrap;
+}
+
+/* Clients */
+.clients
+{
+    flex-wrap: wrap;
+}
+
+.client-item
+{
+    width: 50px;
+    padding: 0px 20px;
+}
+
+
+/* Contact */
+
+
+/* Footer */
+
+
+/* Ulility */
+.btn
+{
+    font-size: 20px;
+    padding: 4px 8px;
+}
